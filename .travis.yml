@@ -11,5 +11,6 @@ deploy:
   local_dir: docs/.vuepress/dist
   github_token: $TRAVIS_CI_TOKEN
   keep_history: true
+  repo: coolgod/coolgod.github.io
   on:
     branch: master
