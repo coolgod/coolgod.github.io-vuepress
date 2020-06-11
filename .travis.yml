@@ -12,5 +12,6 @@ deploy:
   github_token: $TRAVIS_CI_TOKEN
   keep_history: true
   repo: coolgod/coolgod.github.io
+  target_branch: master
   on:
     branch: master
